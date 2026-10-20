@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Gaming Console Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Retro Gaming Console Gallery</h1>
+        <p>Explore the history of classic gaming consoles!</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Classic Gaming Consoles</h2>
+            <p>
+                Click the button below to discover
+                some of the most iconic gaming consoles.
+            </p>
+
+            <button id="loadConsoles" type="button">
+                Load Consoles
+            </button>
+
+            <p id="message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="gallery" aria-label="Console gallery">
+            <p id="summary"></p>
+            <div id="consoleContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Retro Gaming Console Gallery</p>
+    </footer>
+</body>
+
+</html>
