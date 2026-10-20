@@ -9,6 +9,10 @@ body {
     background-color: #111827;
     color: #f9fafb;
     line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -32,8 +36,10 @@ header p {
 /* Main Content */
 main {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 20px;
+    flex: 1;
 }
 
 .intro {
@@ -134,7 +140,7 @@ footer {
     background-color: #1e3a5f;
     text-align: center;
     padding: 18px;
-    margin-top: 40px;
+    margin-top: auto;
     border-top: 3px solid #22c55e;
 }
 
